@@ -1,5 +1,5 @@
 
-    # undefined
+    # Test
 
     ## Table of Contents
     - [Installation](#install)
@@ -10,20 +10,22 @@
     - [Questions](#questions)
     
     ## Installation
-    Installation Explanation
+    Test Explanation.
 
     ## Description
-    Usage Explanation
+    Test Description.
 
     ## License
     MIT License
 
     ## Credits/Contributors
-    Credits Here
+    Jacob McAulife
 
     ## Tests
-    Tests Here
+    Tests Added.
 
     ## Questions
-    Questions Here
+    Questions Here.
+    If you have further questions, you can reach me at [EMail](mcauliffemedia@gmail.com)
+    GitHub Account: [GitHub](https://github.com/jacobmca)
   

@@ -14,7 +14,7 @@ const questions = [
     {
         type: "input",
         message: "Please explain how to install your program here.",
-        name: "install",
+        name: "installation",
     },
     {
         type: "input",
@@ -41,6 +41,11 @@ const questions = [
         type: "input",
         message: "Please add any further questions here.",
         name: "questions",
+    },
+    {
+        type: "input",
+        message: "Please enter your e-mail.",
+        name: "email",
     },
     {
         type: "input",
