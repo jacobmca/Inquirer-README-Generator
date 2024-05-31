@@ -19,7 +19,7 @@ const questions = [
     {
         type: "input",
         message: "Please describe the purpose and usage of your program here.",
-        name: "usage",
+        name: "description",
     },
     {
         type: "list",
@@ -54,7 +54,7 @@ const questions = [
     }
 ];
 
-// TODO: Function that writes REAADME file
+// TODO: Function that writes README file
 function writeToFile(fileName, data) {
     const filePath = path.join(process.cwd(), fileName);
     fs.writeFile(filePath, data, (err) => 
@@ -66,7 +66,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then((answers) => {
         const markdownContent = generateMarkdown(answers);
-        writeToFile("README.md", markdownContent);
+        writeToFile("./utils/README.md", markdownContent);
     })
 }
 
