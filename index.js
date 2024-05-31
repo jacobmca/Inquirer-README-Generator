@@ -18,8 +18,13 @@ const questions = [
     },
     {
         type: "input",
-        message: "Please describe the purpose and usage of your program here.",
+        message: "Please describe the purpose of your program here.",
         name: "description",
+    },
+    {
+        type: "input",
+        message: "Please describe how to use your program here.",
+        name: "usage",
     },
     {
         type: "list",
@@ -36,11 +41,6 @@ const questions = [
         type: "input",
         message: "Please add your tests here.",
         name: "tests",
-    },
-    {
-        type: "input",
-        message: "Please add any further questions here.",
-        name: "questions",
     },
     {
         type: "input",

@@ -56,6 +56,7 @@ ${renderLicenseBadge(data.license)}
 ## Table of Contents
 * [Installation](#installation)
 * [Description](#description)
+* [Usage](#usage)
 * [License](#license)
 * [Credits](#credits)
 * [Tests](#tests)
@@ -67,6 +68,9 @@ ${data.installation}
 ## Description
 ${data.description}
 
+## Usage
+${data.usage}
+
 ## License
 ${renderLicenseSection(data.license)}
 
@@ -77,7 +81,6 @@ ${data.credits}
 ${data.tests}
 
 ## Questions
-${data.questions}
 If you have further questions, you can reach me at [${data.email}](mailto:${data.email}).
 
 GitHub Account: [${data.github}](https://github.com/${data.github})

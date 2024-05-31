@@ -3,6 +3,7 @@
 ## Table of Contents
 * [Installation](#installation)
 * [Description](#description)
+* [Usage](#usage)
 * [License](#license)
 * [Credits](#credits)
 * [Tests](#tests)
@@ -17,8 +18,17 @@ To install, please clone this repository to your computer using the following st
 4. Press enter.
 
 ## Description
-This is a node-baed program that generates a professional README.md file based on the user's input. It utilizes the Inquirer package.
+This is a node-based program that generates a professional README.md file based on the user's input. It utilizes the Inquirer package.
 
+The program allows the user to input a title, installation steps, description, usage explanation license, credits, and a list of tests to be automatically populated into the README format. The user can also enter their e-mail and Github account, for population into a "Contact Me" section at the bottom of the page that includes links to the user's e-mail and Github profile.
+
+The README program generates takes the same format as this README you are currently reading does.
+
+A Table of Contents section is automatically created in the README, which takes the user to each section of the document.
+
+For the license step, the user can select a license from a list provided by the program. Once selected, a license badge is added to the top of the README, and a notice populates in the License section explaining the license the application is covered under.
+
+## Usage
 To run the program, navigate to the Inquirer-README-Generator folder and enter "node index.js" into your local terminal. Follow the steps as prompted.
 
 ![Screenshot](assets/screenshots/screenshot1.png)
@@ -29,14 +39,6 @@ Once all the prompts have been answered, a message will be displayed stating the
 
 Note - if you generate another README after creating your first one, it will overwrite the README that already exists in your utils folder.
 
-Once the program has been run, the user will be able to input a title, installation steps, description, license, credits, list of tests, and questions to be automatically populated into the README format. The user will also be able to enter their e-mail and Github account, for population into a "Contact Me" section at the bottom of the page that includes links to the user's e-mail and Github profile.
-
-The README takes the same format as this README does.
-
-A Table of Contents section is automatically created in the README, which takes the user to each section of the document.
-
-For the license step, the user can select a license from a list provided by the program. Once one is selected, a license badge is added at the top of the README, and a notice populates to the License section of the README explaining the license the application is covered under.
-
 ## License
 This project is licensed under the MIT License. For more information, please see the [MIT License](https://opensource.org/licenses/MIT).
 
@@ -44,7 +46,7 @@ This project is licensed under the MIT License. For more information, please see
 This program was created by Jacob McAuliffe for the UC Berkeley eDX Coding Boot Camp.
 
 ## Tests
-In the future, it might be beneficial to try and add other features to this README generator. Options to include in future versions of this could be the ability to automatically upload screenshots, edit the Table of Contents, a section listing known bugs, and functionality to create multiple READMEs without overwriting the first one in the utils subdirectory..
+In the future, I would like to incorporate other features to this README generator. Options for future versions include the ability to automatically upload screenshots, edit the Table of Contents, a section listing known bugs, and functionality to create multiple READMEs without overwriting the first one in the utils subdirectory.
 
 ## Questions
 If you have further questions, you can reach me at [mcauliffemedia@gmail.com](mailto:mcauliffemedia@gmail.com).

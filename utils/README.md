@@ -3,28 +3,31 @@
 ## Table of Contents
 * [Installation](#installation)
 * [Description](#description)
+* [Usage](#usage)
 * [License](#license)
 * [Credits](#credits)
 * [Tests](#tests)
 * [Questions](#questions)
     
 ## Installation
-Installation Instructions Here.
+Installation explanation here.
 
 ## Description
-Description Here.
+Description here.
+
+## Usage
+Usage explanation here.
 
 ## License
 This project is licensed under the MIT License. For more information, please see the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Credits
-Credits Here.
+Credits here.
 
 ## Tests
-Tests Here.
+Tests here.
 
 ## Questions
-Questions Here.
 If you have further questions, you can reach me at [test@testuser.com](mailto:test@testuser.com).
 
 GitHub Account: [testuser](https://github.com/testuser)
