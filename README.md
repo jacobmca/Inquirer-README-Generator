@@ -4,6 +4,7 @@
 * [Installation](#installation)
 * [Description](#description)
 * [Usage](#usage)
+* [Contributions](#contributions)
 * [License](#license)
 * [Credits](#credits)
 * [Tests](#tests)
@@ -38,6 +39,11 @@ Once all the prompts have been answered, a message will be displayed stating the
 ![Screenshot](assets/screenshots/screenshot2.png)
 
 Note - if you generate another README after creating your first one, it will overwrite the README that already exists in your utils folder.
+
+[Please see this video demo.](https://www.youtube.com/watch?v=q-IHm4JOogA)
+
+## Contributions
+When contributing to this repository, please reach out to me via e-mail to discuss the change you would like to make first. I am open to ideas including new sections for the README, new functionalities for the program to perform with the README, or any other ideas that would make for a more useful tool.
 
 ## License
 This project is licensed under the MIT License. For more information, please see the [MIT License](https://opensource.org/licenses/MIT).

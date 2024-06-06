@@ -27,6 +27,11 @@ const questions = [
         name: "usage",
     },
     {
+        type: "input",
+        message: "Please add any contribution details here.",
+        name: "contributions",
+    },
+    {
         type: "list",
         message: "What license does this use?",
         name: "license",
@@ -34,7 +39,7 @@ const questions = [
     },
     {
         type: "input",
-        message: "Please add credits/contributing information here.",
+        message: "Please add credits here.",
         name: "credits",
     },
     {
